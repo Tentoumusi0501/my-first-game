@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINJA JUMPER</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>NINJA JUMPER</h1>
+    <div id="info-container">
+        <span>ステージ: <span id="stage-number">1</span></span>
+        <span>残りの巻物: <span id="scroll-count">0</span></span>
+    </div>
+    <canvas id="game-canvas" width="800" height="600"></canvas>
+    
+    <div id="game-over-container" class="game-overlay">
+        <div id="message"></div>
+        <button id="restart-button">もう一度挑戦</button>
+    </div>
+
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>

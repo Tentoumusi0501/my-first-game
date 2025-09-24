@@ -1,0 +1,58 @@
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Meiryo', 'Hiragino Kaku Gothic ProN', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: #39b5a4;
+    text-shadow: 0 0 8px #39b5a4;
+}
+
+#info-container {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+#game-canvas {
+    background-color: #0f1020;
+    border: 3px solid #39b5a4;
+}
+
+.game-overlay {
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+}
+
+#message {
+    font-size: 3em;
+    text-shadow: 0 0 10px #fff;
+}
+
+#restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #39b5a4;
+    background-color: #1a1a2e;
+    border: 2px solid #39b5a4;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+#restart-button:hover {
+    background-color: #39b5a4;
+    color: #1a1a2e;
+}
